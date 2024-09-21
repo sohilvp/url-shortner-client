@@ -1,50 +1,12 @@
-# React + TypeScript + Vite
+## Live site : https://shrinkyurl.onrender.com/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## <span>&#9888;</span><span>&#9888;</span> Known Issue <span>&#9888;</span><span>&#9888;</span>
+  <span>&#9888;</span>Initial Request Delay: Due to the server restart on Render.com, the initial request may take a bit longer. Subsequent requests will perform optimally.<span>&#9888;</span>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+![Screenshot 2024-09-21 155208](https://github.com/user-attachments/assets/7d5298dd-b7dd-4bf7-aa4b-74affd170e95)
+![Screenshot 2024-09-21 155231](https://github.com/user-attachments/assets/bab7ccb3-23b9-4838-bcb0-fb1bd09baefe)
+![Screenshot 2024-09-21 155317](https://github.com/user-attachments/assets/b7d5d542-83a7-4355-a23b-9ffd175c7920)
+![Screenshot 2024-09-21 155409](https://github.com/user-attachments/assets/54077cbd-55e2-400b-8b57-a7737a581f96)
+![Screenshot 2024-09-21 155612](https://github.com/user-attachments/assets/fae59347-407e-4653-9a37-7f84df88af12)
